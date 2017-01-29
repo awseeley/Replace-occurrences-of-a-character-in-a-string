@@ -193,13 +193,16 @@
 				TargetAttributes = {
 					946C4AC01CDC3B41009957BD = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 					946C4AD41CDC3B41009957BD = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = 946C4AC01CDC3B41009957BD;
 					};
 					946C4ADF1CDC3B41009957BD = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = 946C4AC01CDC3B41009957BD;
 					};
 				};
@@ -405,6 +408,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = seemu.ReplaceOccurancesOfString;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -416,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = seemu.ReplaceOccurancesOfString;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = seemu.ReplaceOccurancesOfStringTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReplaceOccurancesOfString.app/ReplaceOccurancesOfString";
 			};
 			name = Debug;
@@ -439,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = seemu.ReplaceOccurancesOfStringTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReplaceOccurancesOfString.app/ReplaceOccurancesOfString";
 			};
 			name = Release;
@@ -450,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = seemu.ReplaceOccurancesOfStringUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ReplaceOccurancesOfString;
 			};
 			name = Debug;
@@ -461,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = seemu.ReplaceOccurancesOfStringUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ReplaceOccurancesOfString;
 			};
 			name = Release;
@@ -484,6 +493,7 @@
 				946C4AEB1CDC3B41009957BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		946C4AEC1CDC3B41009957BD /* Build configuration list for PBXNativeTarget "ReplaceOccurancesOfStringTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +502,7 @@
 				946C4AEE1CDC3B41009957BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		946C4AEF1CDC3B41009957BD /* Build configuration list for PBXNativeTarget "ReplaceOccurancesOfStringUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +511,7 @@
 				946C4AF11CDC3B41009957BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 
         let myString: String = "This is my string"
-        let newString = myString.stringByReplacingOccurrencesOfString(" ", withString: "+")
+        let newString = myString.replacingOccurrences(of: " ", with: "+")
         
         print(myString)
         print(newString)
